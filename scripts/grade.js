@@ -58,21 +58,21 @@ function criaCeldas(n, str, array) {
     return array;
 }
 
-criaCeldas(0, "celda", fila01);
-criaCeldas(21, "celda", fila02);
-criaCeldas(42, "celda", fila03);
-criaCeldas(63, "celda", fila04);
-criaCeldas(84, "celda", fila05);
-criaCeldas(105, "celda", fila06);
-criaCeldas(126, "celda", fila07);
-criaCeldas(147, "celda", fila08);
-criaCeldas(168, "celda", fila09);
-criaCeldas(189, "celda", fila10);
-criaCeldas(210, "celda", fila11);
-criaCeldas(231, "celda", fila12);
-criaCeldas(252, "celda", fila13);
-criaCeldas(273, "celda", fila14);
-criaCeldas(294, "celda", fila15);
+criaCeldas(0, "estrada", fila01);
+criaCeldas(21, "estrada", fila02);
+criaCeldas(42, "estrada", fila03);
+criaCeldas(63, "estrada", fila04);
+criaCeldas(84, "estrada", fila05);
+criaCeldas(105, "estrada", fila06);
+criaCeldas(126, "estrada", fila07);
+criaCeldas(147, "estrada", fila08);
+criaCeldas(168, "estrada", fila09);
+criaCeldas(189, "estrada", fila10);
+criaCeldas(210, "estrada", fila11);
+criaCeldas(231, "estrada", fila12);
+criaCeldas(252, "estrada", fila13);
+criaCeldas(273, "estrada", fila14);
+criaCeldas(294, "estrada", fila15);
 
 const filaA = document.getElementById("a");
 const filaB = document.getElementById("b");

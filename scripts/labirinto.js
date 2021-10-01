@@ -6,13 +6,13 @@ function criaParede(array) {
 }
 
 const start = fila10[0].celda;
-start.id = "inicio";
+start.className = "inicio";
 
 const end = fila09[20].celda;
-end.id = "final";
+end.className = "final";
 
 const ficha = fichas[0].celda;
-const inicial = document.getElementById("inicio");
+const inicial = document.getElementById("190");
 inicial.appendChild(ficha);
 
 const b = [];

@@ -48,11 +48,10 @@ main {
     align-items: center;
 }
 
-.celda {
+.estrada, .inicio, .final, .caminho {
     width: 20px;
     height: 20px;
     margin: auto;
-    border: 1px solid black;
 }
 
 .wall {
@@ -62,12 +61,16 @@ main {
     background-color: black;
 }
 
-#inicio {
+.inicio {
     background-color: green;
 }
 
-#final {
+.final {
     background-color: red;
+}
+
+.caminho {
+    background-color: yellow;
 }
 
 footer {
