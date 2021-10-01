@@ -1,0 +1,32 @@
+
+#rojo{
+				width: 40px;
+				height: 40px;
+				margin: auto;
+				border-radius: 50%;
+				background-color: red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+
+#negro{
+				width: 95%;
+				height: 95%;
+				margin: auto;
+				border-radius: 50%;
+				background-color: black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+
+#letras{
+				line-height: 100%;
+				margin: auto;
+				color: white;
+				font-size: 1.5em;
+				font-style: italic;
+				font-weight: 1000;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

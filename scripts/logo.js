@@ -1,0 +1,11 @@
+const rojo = document.createElement("div");
+rojo.id = "rojo";
+const negro = document.createElement("div");
+negro.id = "negro";
+const letras = document.createElement("h1");
+letras.id = "letras";
+// const principal = document.getElementById("principal");
+ficha.appendChild(rojo);
+rojo.appendChild(negro);
+negro.appendChild(letras);
+letras.innerText = "BG";

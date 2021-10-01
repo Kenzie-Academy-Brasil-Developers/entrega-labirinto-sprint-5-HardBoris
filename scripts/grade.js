@@ -1,4 +1,12 @@
 const principal = document.getElementById("principal");
+
+const vitoria = document.getElementById("vitoria");
+// vitoria.className = "vitoria";
+// principal.appendChild(vitoria);
+const mensaje = document.createElement("h2");
+vitoria.appendChild(mensaje);
+mensaje.innerText = "Você venceu!"
+
 const labirinto = document.createElement("section");
 labirinto.id = "labirinto";
 principal.appendChild(labirinto);
@@ -117,3 +125,4 @@ dibujaCeldas(fila15, filaO);
 const fichas = [];
 
 criaCeldas(999, "ficha", fichas);
+
